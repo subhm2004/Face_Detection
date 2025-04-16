@@ -164,7 +164,7 @@ After training, you can visualize the accuracy and loss curves by running the pl
 
 To plot the graphs, run:
 ```
-python plot_graph_and_pie.py
+python plot_graphs_and_pie.py
 ```
 This script will read the data from the `training_log.txt` file and display the following graphs:
 
