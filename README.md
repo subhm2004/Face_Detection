@@ -119,6 +119,35 @@ The CNN model outputs a list of softmax scores for the seven emotion classes.
 The emotion with the highest score is displayed on the screen.
 
 ---
+## Folder Structure
+```
+Emotion-Detection-Deep-Learning/
+│
+├── src/                        # Main source code
+│   ├── emotions.py             # Main script for training and prediction
+│   ├── convert_er2013_to_image.py  # Converts the FER-2013 dataset from CSV to image files
+│   ├── dataset_prepare.py      # Preprocessing script for FER-2013 dataset
+│   ├── plot_graph_and_pie.py   # Script for plotting accuracy and loss graphs
+│   ├── model/                  # Contains model architecture and utility files
+│   │   ├── cnn_model.py        # CNN model definition
+│   │   └── utils.py            # Helper functions (e.g., for image processing)
+│   └── logs/                   # Logs for training progress
+│       └── training_log.txt    # Log of training progress
+│
+├── data/                       # Data-related files
+│   ├── fer2013.csv             # FER-2013 dataset in CSV format
+│   └── images/                 # Folder to store processed images
+│       └── train/              # Training images
+│       └── test/               # Test images
+│
+├── pretrained_models/          # Pre-trained models
+│   └── emotion_detection_model.h5  # Pre-trained emotion detection model file
+│
+├── requirements.txt            # List of required Python libraries
+├── README.md                   # Project documentation
+└── .gitignore                  # Git ignore file to avoid versioning unnecessary files
+```
+
 
 ## Logging and Plotting
 
