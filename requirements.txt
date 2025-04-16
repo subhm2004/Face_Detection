@@ -1,0 +1,8 @@
+numpy==1.23.5
+opencv-python>=4.5.1
+tensorflow-macos==2.15.0
+pandas
+pillow
+tqdm
+matplotlib
+scikit-learn
