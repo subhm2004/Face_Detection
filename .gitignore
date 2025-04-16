@@ -1,2 +1,15 @@
+# Ignore environment and large files
+
 fer2013.csv
 data/
+myenv/
+*.dylib
+*.csv
+*.h5
+*.pb
+*.ckpt
+*.tfrecord
+*.zip
+*.tar
+*.tar.gz
+*.npz
