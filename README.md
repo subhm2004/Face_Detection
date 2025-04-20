@@ -1,4 +1,4 @@
-# Emotion Detection using Deep Learning
+# Emotion Detection 
 
 This project focuses on classifying emotions expressed on a person’s face into one of seven predefined categories using deep convolutional neural networks (CNN). The model is built to process images from the FER-2013 dataset, which contains a large set of labeled facial expressions. These images are 48x48 pixels in size and are grayscale, allowing the model to focus on the key features of the face.
 
